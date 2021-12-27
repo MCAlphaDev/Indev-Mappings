@@ -1,3 +1,8 @@
 CLASS com/pkg0/pkg0/class_8 com/mojang/nbt/ListTag
 	FIELD field_7 subtags Ljava/util/List;
 	FIELD field_8 size B
+	METHOD method_28 get (I)Lcom/pkg0/pkg0/class_12;
+		ARG 1 index
+	METHOD method_29 add (Lcom/pkg0/pkg0/class_12;)V
+		ARG 1 class_12
+	METHOD method_30 size ()I

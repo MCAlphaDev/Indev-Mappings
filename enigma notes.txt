@@ -1,3 +1,12 @@
+# PACKAGES
 client/pkg4		render
 client/pkg4/pkg0	model
 client/pkg3		sound
+client/pkg6		entity
+pkg0			world
+pkg0/pkg0		level
+pkg0/pkg1		entity
+pkg0/pkg2		item
+
+# CONVENTIONS
+fromTag/toTag
