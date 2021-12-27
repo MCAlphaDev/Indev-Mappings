@@ -703,9 +703,9 @@ METHOD	net/minecraft/a/a/a/a/a	(Lcom/a/a/c;)V	a	method_43
 METHOD	net/minecraft/a/a/a/a/a	(Lcom/a/a/c;)V	b	method_44
 CLASS	net/minecraft/a/a/a/a/b	net/minecraft/pkg0/pkg0/pkg0/pkg0/class_19
 FIELD	net/minecraft/a/a/a/a/b	[Lnet/minecraft/a/c/h;	a	field_52
-CLASS	net/minecraft/a/a/a/aa	net/minecraft/pkg0/pkg0/pkg0/aa
+CLASS	net/minecraft/a/a/a/aa	net/minecraft/pkg0/pkg0/pkg0/class_177
 FIELD	net/minecraft/a/a/a/aa	I	a	field_53
-CLASS	net/minecraft/a/a/a/ab	net/minecraft/pkg0/pkg0/pkg0/ab
+CLASS	net/minecraft/a/a/a/ab	net/minecraft/pkg0/pkg0/pkg0/class_178
 FIELD	net/minecraft/a/a/a/ab	Z	a	field_54
 CLASS	net/minecraft/a/a/a/b	net/minecraft/pkg0/pkg0/pkg0/class_20
 CLASS	net/minecraft/a/a/a/c	net/minecraft/pkg0/pkg0/pkg0/class_21
@@ -2705,4 +2705,4 @@ METHOD	paulscode/sound/libraries/SourceLWJGLOpenAL	()V	checkPitch	checkPitch
 METHOD	paulscode/sound/libraries/SourceLWJGLOpenAL	()V	resetALInformation	resetALInformation
 # INTERMEDIARY-COUNTER field 752
 # INTERMEDIARY-COUNTER method 447
-# INTERMEDIARY-COUNTER class 177
+# INTERMEDIARY-COUNTER class 179
