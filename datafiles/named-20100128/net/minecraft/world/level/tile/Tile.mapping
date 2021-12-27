@@ -1,8 +1,18 @@
 CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
+	FIELD field_100 tnt Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_101 bookshelf Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_102 mossyCobblestone Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_103 obsidian Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_104 torch Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_105 fire Lnet/minecraft/pkg0/pkg0/pkg0/class_44;
+	FIELD field_106 infiniteWater Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_107 infiniteLava Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_108 chest Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_109 gear Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_113 id I
 	FIELD field_120 sounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_122 grassSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
-	FIELD field_123 alsoStoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_123 stoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_124 woodSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_125 gravelSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_126 byId [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
@@ -48,14 +58,21 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
 	FIELD field_89 redMushroom Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_90 goldBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_91 ironBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
-	FIELD field_93 highStoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
-	FIELD field_97 stoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_92 doubleSlab Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_93 metalSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_97 unusedSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_98 slab Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_99 bricks Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 integer2
 	METHOD method_54 getDropId ()I
 	METHOD method_55 resistance (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	METHOD method_59 getDropCount (Ljava/util/Random;)I
 		ARG 1 rand
+	METHOD method_68 cutout (Z)V
 	METHOD method_71 hardness (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	METHOD method_72 randomTicks (I)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	METHOD method_81 canPersist (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z

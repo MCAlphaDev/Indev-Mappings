@@ -1,0 +1,7 @@
+CLASS net/minecraft/pkg0/pkg0/pkg0/class_44 net/minecraft/world/level/tile/FireTile
+	FIELD field_150 encouragements [I
+	FIELD field_151 flammabilities [I
+	METHOD method_94 addFlammableTile (III)V
+		ARG 1 id
+		ARG 2 encouragement
+		ARG 3 flammability
