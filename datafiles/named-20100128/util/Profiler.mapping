@@ -1,0 +1,3 @@
+CLASS pkg0/class_2 util/Profiler
+	METHOD method_7 push (Ljava/lang/String;)V
+	METHOD method_8 swap (Ljava/lang/String;)V

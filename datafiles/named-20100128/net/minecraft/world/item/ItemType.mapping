@@ -1,6 +1,8 @@
 CLASS net/minecraft/pkg0/pkg2/class_74 net/minecraft/world/item/ItemType
 	FIELD field_329 rand Ljava/util/Random;
 	FIELD field_330 BY_ID [Lnet/minecraft/pkg0/pkg2/class_74;
+	FIELD field_333 coal Lnet/minecraft/pkg0/pkg2/class_74;
+	FIELD field_334 diamond Lnet/minecraft/pkg0/pkg2/class_74;
 	FIELD field_335 id I
 	FIELD field_336 maxCount I
 	METHOD <init> (I)V

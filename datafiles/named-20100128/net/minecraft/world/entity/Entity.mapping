@@ -4,6 +4,9 @@ CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
 	FIELD field_266 air I
 	FIELD field_267 fallDistance F
 	FIELD field_274 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_275 prevX F
+	FIELD field_276 prevY F
+	FIELD field_277 prevZ F
 	FIELD field_278 x F
 	FIELD field_279 y F
 	FIELD field_280 z F
@@ -12,8 +15,11 @@ CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
 	FIELD field_283 velocityZ F
 	FIELD field_284 yaw F
 	FIELD field_285 pitch F
+	FIELD field_289 falling Z
 	METHOD <init> (Lnet/minecraft/pkg0/pkg0/class_55;)V
 		ARG 1 level
+	METHOD method_191 tick ()V
+	METHOD method_194 setPosition (FFF)V
 	METHOD method_195 refreshPositionAndRotation (FFFFF)V
 	METHOD method_196 writeAdditionalData (Lcom/pkg0/pkg0/class_5;)V
 		ARG 1 tag
@@ -22,6 +28,7 @@ CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
 	METHOD method_204 readAdditionalData (Lcom/pkg0/pkg0/class_5;)V
 		ARG 1 tag
 	METHOD method_205 getType ()Ljava/lang/String;
+	METHOD method_206 move (FFF)V
 	METHOD method_207 fromTag (Lcom/pkg0/pkg0/class_5;)V
 		ARG 1 tag
 	METHOD method_210 toTag (Lcom/pkg0/pkg0/class_5;)V

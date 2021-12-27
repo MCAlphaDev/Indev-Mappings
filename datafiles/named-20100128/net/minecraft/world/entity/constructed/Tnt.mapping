@@ -1,0 +1,6 @@
+CLASS net/minecraft/pkg0/pkg1/pkg0/class_59 net/minecraft/world/entity/constructed/Tnt
+	FIELD field_231 fuse I
+	METHOD <init> (Lnet/minecraft/pkg0/pkg0/class_55;FFF)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

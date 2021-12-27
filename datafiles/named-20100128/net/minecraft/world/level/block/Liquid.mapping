@@ -1,0 +1,8 @@
+CLASS net/minecraft/pkg0/pkg0/pkg0/class_30 net/minecraft/world/level/block/Liquid
+	FIELD field_64 fluid Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
+	METHOD <init> (ILnet/minecraft/pkg0/pkg0/pkg2/class_52;)V
+		ARG 1 id
+	METHOD method_49 spread (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

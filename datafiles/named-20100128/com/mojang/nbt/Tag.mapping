@@ -1,4 +1,6 @@
 CLASS com/pkg0/pkg0/class_12 com/mojang/nbt/Tag
+	FIELD field_12 name Ljava/lang/String;
 	METHOD method_31 getId ()B
 	METHOD method_34 read (Ljava/io/DataInput;)V
 	METHOD method_35 write (Ljava/io/DataOutput;)V
+	METHOD method_38 setName (Ljava/lang/String;)Lcom/pkg0/pkg0/class_12;

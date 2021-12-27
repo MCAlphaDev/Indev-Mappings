@@ -1,3 +1,0 @@
-CLASS net/minecraft/pkg0/pkg0/pkg0/pkg0/class_18 net/minecraft/world/level/tile/entity/TileEntity
-	METHOD method_43 fromTag (Lcom/pkg0/pkg0/class_5;)V
-	METHOD method_44 toTag (Lcom/pkg0/pkg0/class_5;)V

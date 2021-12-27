@@ -1,0 +1,6 @@
+CLASS net/minecraft/pkg0/pkg0/pkg1/pkg0/class_50 net/minecraft/world/level/gen/noise/DomainWarpedNoise
+	FIELD field_169 mainNoise Lnet/minecraft/pkg0/pkg0/pkg1/pkg0/class_48;
+	FIELD field_170 warpNoise Lnet/minecraft/pkg0/pkg0/pkg1/pkg0/class_48;
+	METHOD <init> (Lnet/minecraft/pkg0/pkg0/pkg1/pkg0/class_48;Lnet/minecraft/pkg0/pkg0/pkg1/pkg0/class_48;)V
+		ARG 1 main
+		ARG 2 warp

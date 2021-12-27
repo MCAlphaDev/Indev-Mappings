@@ -1,0 +1,12 @@
+CLASS net/minecraft/pkg0/pkg0/pkg1/pkg0/class_47 net/minecraft/world/level/gen/noise/PerlinNoise
+	FIELD field_166 g [I
+	METHOD method_107 smoothStep (D)D
+		ARG 0 d
+	METHOD method_108 lerp (DDD)D
+		ARG 0 progress
+		ARG 2 start
+		ARG 4 end
+	METHOD method_109 grad (IDDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

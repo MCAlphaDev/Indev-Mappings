@@ -1,19 +1,28 @@
 # PACKAGES
-client/pkg4		render
-client/pkg4/pkg0	model
-client/pkg3		sound
-client/pkg6		entity
-pkg0			world
-pkg0/pkg0		level
-pkg0/pkg0/pkg0		tile
-pkg0/pkg0/pkg0/pkg0	entity // tileentity
-pkg0/pkg0/pkg2		fluid
-pkg0/pkg1		entity
-pkg0/pkg2		item
+pkg0:	util
+net/minecraft:
+	client:
+		pkg3:	sound
+		pkg4:	render
+			pkg0:	model
+		pkg6:	entity
+	pkg0:	world
+		pkg0:	level
+			pkg0:	block
+				pkg0:	entity
+			pkg1:	gen
+				pkg0:	noise
+			pkg2:	fluid
+		pkg1:	entity
+			pkg0:	constructed
+		pkg2:	item
 
 # CONVENTIONS
+follow notch's packaging
 fromTag/toTag
+Entities and Block Entities have no suffix
 builders -> no prefix.
+NZ english (might consider changing it later but for now I'm a kiwi so may as well)
 
 # NOTES
 not sure about class_23#canPersist

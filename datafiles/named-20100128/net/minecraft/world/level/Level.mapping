@@ -4,12 +4,26 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 	FIELD field_196 sizeX I
 	FIELD field_197 sizeZ I
 	FIELD field_198 height I
-	FIELD field_199 tiles [B
+	FIELD field_199 blocks [B
+	FIELD field_201 name Ljava/lang/String;
+	FIELD field_202 author Ljava/lang/String;
+	FIELD field_203 createdOn J
+	FIELD field_204 spawnX I
+	FIELD field_205 spawnY I
+	FIELD field_206 spawnZ I
+	FIELD field_208 surroundingWaterType I
 	FIELD field_209 tileEntities Ljava/util/Map;
 	FIELD field_210 rand1 Ljava/util/Random;
 	FIELD field_211 entities Lnet/minecraft/pkg0/pkg0/class_56;
+	FIELD field_212 surroundingWaterHeight I
+	FIELD field_213 surroundingGroundHeight I
+	FIELD field_214 cloudHeight I
+	FIELD field_215 skyColour I
+	FIELD field_216 fogColour I
+	FIELD field_217 cloudColour I
 	FIELD field_218 player Lnet/minecraft/pkg0/pkg1/class_63;
-	METHOD method_129 setTile (IIII)Z
+	FIELD field_220 skyBrightness F
+	METHOD method_129 setBlock (IIII)Z
 	METHOD method_130 (IIIII)I
 		ARG 1 x
 		ARG 2 y
@@ -27,12 +41,13 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 entityType
 	METHOD method_135 spawnParticle (Ljava/lang/String;FFFFFF)V
 	METHOD method_137 addEntity (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_138 explode (Lnet/minecraft/pkg0/pkg1/class_63;FFFF)V
 	METHOD method_139 playSound (Lnet/minecraft/pkg0/pkg1/class_63;Ljava/lang/String;FF)V
 		ARG 1 source
 		ARG 2 sound
 		ARG 3 volume
 		ARG 4 pitch
-	METHOD method_147 setTileWithUpdate (IIII)Z
+	METHOD method_147 setBlockWithUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -41,11 +56,11 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 clazz
 	METHOD method_152 removeEntity (Lnet/minecraft/pkg0/pkg1/class_63;)V
 	METHOD method_154 tick ()V
-	METHOD method_155 getTile (III)I
+	METHOD method_155 getBlock (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_156 broadcastTileUpdate (IIII)V
+	METHOD method_156 broadcastBlockUpdate (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -59,7 +74,7 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_172 updateTile (IIII)V
+	METHOD method_172 updateBlock (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z

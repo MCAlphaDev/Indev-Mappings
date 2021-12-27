@@ -1,0 +1,4 @@
+CLASS net/minecraft/pkg0/pkg0/pkg1/pkg0/class_48 net/minecraft/world/level/gen/noise/Noise
+	METHOD method_110 sample (DD)D
+		ARG 1 x
+		ARG 3 y

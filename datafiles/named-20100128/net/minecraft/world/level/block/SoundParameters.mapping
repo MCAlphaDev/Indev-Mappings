@@ -1,0 +1,8 @@
+CLASS net/minecraft/pkg0/pkg0/pkg0/class_28 net/minecraft/world/level/block/SoundParameters
+	FIELD field_61 sound Ljava/lang/String;
+	FIELD field_62 volume F
+	FIELD field_63 pitch F
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 sound
+		ARG 2 volume
+		ARG 3 pitch

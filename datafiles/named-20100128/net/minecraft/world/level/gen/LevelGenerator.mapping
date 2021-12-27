@@ -1,0 +1,3 @@
+CLASS net/minecraft/pkg0/pkg0/pkg1/class_46 net/minecraft/world/level/gen/LevelGenerator
+	FIELD field_157 profiler Lpkg0/class_2;
+	FIELD field_161 rand Ljava/util/Random;
