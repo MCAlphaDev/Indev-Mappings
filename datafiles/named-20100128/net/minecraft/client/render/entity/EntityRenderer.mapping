@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/pkg0/pkg0/class_88 net/minecraft/client/render/entity/EntityRenderer
+	FIELD field_371 model Lnet/minecraft/client/pkg0/pkg0/class_89;
+	METHOD method_262 bindTexture (Ljava/lang/String;)V
+		ARG 1 texture

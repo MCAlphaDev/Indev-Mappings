@@ -1,0 +1,7 @@
+CLASS net/minecraft/pkg0/pkg1/pkg1/class_62 net/minecraft/world/entity/projectile/Arrow
+	FIELD field_248 blockX I
+	FIELD field_249 blockY I
+	FIELD field_250 blockZ I
+	FIELD field_251 inBlock I
+	FIELD field_252 inGround Z
+	FIELD field_254 shake I

@@ -1,4 +1,4 @@
-CLASS net/minecraft/pkg0/pkg2/class_75 net/minecraft/world/item/Item
+CLASS net/minecraft/pkg0/pkg2/class_75 net/minecraft/world/item/ItemStack
 	FIELD field_338 count I
 	FIELD field_340 id I
 	METHOD <init> (I)V

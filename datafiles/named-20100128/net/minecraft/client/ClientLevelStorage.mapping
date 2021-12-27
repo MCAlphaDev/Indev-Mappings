@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/class_153 net/minecraft/client/ClientLevelStorage
+	FIELD field_676 minecraft Lnet/minecraft/client/class_136;

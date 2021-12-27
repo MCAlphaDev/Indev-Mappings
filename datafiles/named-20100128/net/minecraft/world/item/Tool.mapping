@@ -1,0 +1,6 @@
+CLASS net/minecraft/pkg0/pkg2/class_72 net/minecraft/world/item/Tool
+	FIELD field_326 effectiveOn [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_327 miningSpeed F
+	METHOD <init> (I[Lnet/minecraft/pkg0/pkg0/pkg0/class_35;)V
+		ARG 1 id
+		ARG 2 effectiveOn

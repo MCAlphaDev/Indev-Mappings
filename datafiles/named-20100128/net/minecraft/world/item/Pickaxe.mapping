@@ -1,1 +1,2 @@
 CLASS net/minecraft/pkg0/pkg2/class_67 net/minecraft/world/item/Pickaxe
+	FIELD field_323 effectiveBlocks [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;

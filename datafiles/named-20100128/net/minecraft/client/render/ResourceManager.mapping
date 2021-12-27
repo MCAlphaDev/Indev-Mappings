@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/pkg0/class_104 net/minecraft/client/render/ResourceManager
+	METHOD method_330 getTexture (Ljava/lang/String;)I

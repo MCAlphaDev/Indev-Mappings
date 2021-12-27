@@ -1,4 +1,13 @@
 CLASS net/minecraft/client/class_136 net/minecraft/client/Minecraft
+	FIELD field_589 resourceDownloadThread Lnet/minecraft/client/class_169;
+	FIELD field_594 applet Lnet/minecraft/client/MinecraftApplet;
+	FIELD field_602 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_604 player Lnet/minecraft/client/pkg6/class_164;
+	FIELD field_611 resourceLoader Lnet/minecraft/client/pkg0/class_104;
+	FIELD field_614 profiler Lnet/minecraft/client/class_82;
+	FIELD field_621 options Lnet/minecraft/client/class_176;
+	FIELD field_622 soundManager Lnet/minecraft/client/pkg3/class_139;
 	FIELD field_623 running Z
 	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 2 applet
+	METHOD method_399 setScreen (Lnet/minecraft/client/pkg1/class_119;)V

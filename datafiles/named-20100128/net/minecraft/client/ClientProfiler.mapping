@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/class_82 net/minecraft/client/ClientProfiler
+	FIELD field_363 detail Ljava/lang/String;
+	FIELD field_364 minecraft Lnet/minecraft/client/class_136;
+	FIELD field_365 main Ljava/lang/String;
+	FIELD field_366 lastTime J
+	METHOD method_261 readTag (Ljava/io/InputStream;)Lcom/pkg0/pkg0/class_5;

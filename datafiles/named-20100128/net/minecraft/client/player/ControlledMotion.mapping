@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/pkg6/class_167 net/minecraft/client/player/ControlledMotion
+	FIELD field_711 motion [Z
+	FIELD field_712 options Lnet/minecraft/client/class_176;

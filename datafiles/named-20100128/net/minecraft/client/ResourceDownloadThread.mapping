@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/class_169 net/minecraft/client/ResourceDownloadThread
+	FIELD field_715 resourcesDir Ljava/io/File;
+	FIELD field_716 minecraft Lnet/minecraft/client/class_136;
+	FIELD field_717 mustStop Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/class_136;)V
+		ARG 1 workingDir
+	METHOD method_439 stop ()V

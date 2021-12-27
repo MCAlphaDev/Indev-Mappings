@@ -1,0 +1,30 @@
+CLASS net/minecraft/client/class_176 net/minecraft/client/Options
+	FIELD field_724 playMusic Z
+	FIELD field_725 playSound Z
+	FIELD field_726 invertMouse Z
+	FIELD field_727 showFPS Z
+	FIELD field_728 renderDistanceId I
+	FIELD field_729 viewBobbing Z
+	FIELD field_730 analglyph3d Z
+	FIELD field_731 limitFramerate Z
+	FIELD field_732 forward Lnet/minecraft/client/class_168;
+	FIELD field_733 left Lnet/minecraft/client/class_168;
+	FIELD field_734 back Lnet/minecraft/client/class_168;
+	FIELD field_735 right Lnet/minecraft/client/class_168;
+	FIELD field_736 jump Lnet/minecraft/client/class_168;
+	FIELD field_737 inventory Lnet/minecraft/client/class_168;
+	FIELD field_738 drop Lnet/minecraft/client/class_168;
+	FIELD field_739 toggleFog Lnet/minecraft/client/class_168;
+	FIELD field_740 saveLocation Lnet/minecraft/client/class_168;
+	FIELD field_741 loadLocation Lnet/minecraft/client/class_168;
+	FIELD field_742 keybinds [Lnet/minecraft/client/class_168;
+	FIELD field_744 renderDistances [Ljava/lang/String;
+	FIELD field_745 chat Lnet/minecraft/client/class_168;
+	FIELD field_746 minecraft Lnet/minecraft/client/class_136;
+	FIELD field_747 options Ljava/io/File;
+	METHOD <init> (Lnet/minecraft/client/class_136;Ljava/io/File;)V
+		ARG 2 rootDir
+	METHOD method_441 loadOptions ()V
+	METHOD method_444 saveOptions ()V
+	METHOD method_445 getOptionText (I)Ljava/lang/String;
+		ARG 1 option

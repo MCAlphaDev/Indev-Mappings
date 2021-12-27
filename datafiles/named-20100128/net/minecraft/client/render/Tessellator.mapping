@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/pkg0/class_98 net/minecraft/client/render/Tessellator
+	FIELD field_422 instance Lnet/minecraft/client/pkg0/class_98;
+	FIELD field_423 buffer Ljava/nio/IntBuffer;
+	FIELD field_424 data [I
+	METHOD method_287 vertex (FFF)V

@@ -1,3 +1,12 @@
 CLASS net/minecraft/pkg0/pkg0/pkg1/class_46 net/minecraft/world/level/gen/LevelGenerator
+	FIELD field_156 type I
 	FIELD field_157 profiler Lpkg0/class_2;
 	FIELD field_161 rand Ljava/util/Random;
+	FIELD field_162 tiles [B
+	METHOD method_102 renderStateGui (I)V
+	METHOD method_104 flood (IIIII)J
+	METHOD method_105 generate (Ljava/lang/String;III)Lnet/minecraft/pkg0/pkg0/class_55;
+		ARG 1 author
+		ARG 2 sizeX
+		ARG 3 sizeZ
+		ARG 4 height

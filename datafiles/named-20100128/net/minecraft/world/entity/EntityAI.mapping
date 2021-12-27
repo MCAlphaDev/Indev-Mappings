@@ -1,0 +1,2 @@
+CLASS net/minecraft/pkg0/pkg1/class_58 net/minecraft/world/entity/EntityAI
+	METHOD method_189 tick (Lnet/minecraft/pkg0/pkg0/class_55;Lnet/minecraft/pkg0/pkg1/class_66;)V

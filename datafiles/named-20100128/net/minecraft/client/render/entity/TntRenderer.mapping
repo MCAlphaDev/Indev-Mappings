@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/pkg0/pkg0/class_86 net/minecraft/client/render/entity/TntRenderer
+	FIELD field_368 renderer Lnet/minecraft/client/pkg0/class_100;

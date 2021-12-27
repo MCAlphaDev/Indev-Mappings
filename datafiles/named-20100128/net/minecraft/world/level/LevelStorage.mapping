@@ -1,0 +1,6 @@
+CLASS net/minecraft/pkg0/pkg0/class_16 net/minecraft/world/level/LevelStorage
+	FIELD field_50 profiler Lpkg0/class_2;
+	METHOD method_39 load (Ljava/io/InputStream;)Lnet/minecraft/pkg0/pkg0/class_55;
+	METHOD method_40 save (Lnet/minecraft/pkg0/pkg0/class_55;Ljava/io/OutputStream;)V
+	METHOD method_41 loadEntity (Lnet/minecraft/pkg0/pkg0/class_55;Ljava/lang/String;)Lnet/minecraft/pkg0/pkg1/class_63;
+		ARG 2 type

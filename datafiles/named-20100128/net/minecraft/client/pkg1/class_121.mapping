@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/pkg1/class_121
+	METHOD method_362 drawString (Ljava/lang/String;III)V

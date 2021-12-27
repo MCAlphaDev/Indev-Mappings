@@ -2,10 +2,14 @@
 pkg0:	util
 net/minecraft:
 	client:
+		pkg0:	render
+			pkg0:	entity
+		pkg1:	screen
 		pkg3:	sound
-		pkg4:	render
+		pkg4:	texture
 			pkg0:	model
-		pkg6:	entity
+		pkg5:	entity
+		pkg6:	player
 	pkg0:	world
 		pkg0:	level
 			pkg0:	block
@@ -15,12 +19,14 @@ net/minecraft:
 			pkg2:	fluid
 		pkg1:	entity
 			pkg0:	constructed
+			pkg1:	projectile
+			pkg2:	player
 		pkg2:	item
 
 # CONVENTIONS
 follow notch's packaging
 fromTag/toTag
-Entities and Block Entities have no suffix
+Entities and Block Entities have no suffix. Also items because there's so few of them and they don't really conflict
 builders -> no prefix.
 NZ english (might consider changing it later but for now I'm a kiwi so may as well)
 

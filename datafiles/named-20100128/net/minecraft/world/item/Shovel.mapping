@@ -1,1 +1,2 @@
 CLASS net/minecraft/pkg0/pkg2/class_76 net/minecraft/world/item/Shovel
+	FIELD field_341 efffectiveBlocks [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;

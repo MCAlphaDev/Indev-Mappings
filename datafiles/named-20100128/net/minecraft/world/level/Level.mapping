@@ -32,9 +32,9 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_133 setLevel (III[B)V
+	METHOD method_133 init (III[B)V
 		ARG 1 sizeX
-		ARG 2 sizeY
+		ARG 2 height
 		ARG 3 sizeZ
 		ARG 4 tiles
 	METHOD method_134 getCountOf (Ljava/lang/Class;)I

@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/pkg0/pkg0/class_89 net/minecraft/client/render/entity/EntityModel
+	FIELD field_373 resourceManager Lnet/minecraft/client/pkg0/class_104;
+	FIELD field_375 matrix F

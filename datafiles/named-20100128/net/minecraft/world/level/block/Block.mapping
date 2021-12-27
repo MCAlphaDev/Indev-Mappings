@@ -113,7 +113,7 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 		ARG 5 neighbour
 	METHOD method_79 light (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 		ARG 1 light
-	METHOD method_81 canPersist (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
+	METHOD method_81 shouldRenderFace (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
 		ARG 1 class_55
 		ARG 2 x
 		ARG 3 y

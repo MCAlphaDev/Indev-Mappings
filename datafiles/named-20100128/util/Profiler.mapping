@@ -1,3 +1,6 @@
 CLASS pkg0/class_2 util/Profiler
-	METHOD method_7 push (Ljava/lang/String;)V
-	METHOD method_8 swap (Ljava/lang/String;)V
+	METHOD method_6 render (I)V
+	METHOD method_7 swapMain (Ljava/lang/String;)V
+		ARG 1 main
+	METHOD method_8 swapDetail (Ljava/lang/String;)V
+		ARG 1 detail

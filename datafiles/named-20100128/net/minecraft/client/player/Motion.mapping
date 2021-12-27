@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/pkg6/class_165 net/minecraft/client/player/Motion
+	FIELD field_707 sideMotion F
+	FIELD field_708 forwardMotion F
+	FIELD field_709 jumping Z
+	METHOD method_436 handleMovement ()V
+	METHOD method_437 updateKey (IZ)V
+		ARG 1 key
+		ARG 2 pressed
+	METHOD method_438 stopMoving ()V

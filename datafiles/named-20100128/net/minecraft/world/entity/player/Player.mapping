@@ -1,2 +1,5 @@
 CLASS net/minecraft/pkg0/pkg1/pkg2/class_64 net/minecraft/world/entity/player/Player
+	FIELD field_298 inventory Lnet/minecraft/pkg0/pkg1/pkg2/class_65;
 	FIELD field_302 score I
+	METHOD method_220 openInventory (Lnet/minecraft/pkg0/class_57;)V
+	METHOD method_222 getScore ()I
