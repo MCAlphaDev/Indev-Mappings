@@ -1,0 +1,3 @@
+client/pkg4		render
+client/pkg4/pkg0	model
+client/pkg3		sound

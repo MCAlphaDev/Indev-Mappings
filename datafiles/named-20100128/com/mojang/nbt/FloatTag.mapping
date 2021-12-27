@@ -1,0 +1,4 @@
+CLASS com/pkg0/pkg0/class_4 com/mojang/nbt/FloatTag
+	FIELD field_3 value F
+	METHOD <init> (F)V
+		ARG 1 value

@@ -1,0 +1,12 @@
+CLASS pkg0/class_1 util/Maths
+	FIELD field_1 sinTable [F
+	METHOD method_1 floor (D)I
+		ARG 0 d
+	METHOD method_2 sin (F)F
+		ARG 0 f
+	METHOD method_3 cos (F)F
+		ARG 0 f
+	METHOD method_4 sqrt (F)F
+		ARG 0 f
+	METHOD method_5 floor (F)I
+		ARG 0 f

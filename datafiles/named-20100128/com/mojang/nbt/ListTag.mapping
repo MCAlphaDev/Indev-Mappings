@@ -1,0 +1,3 @@
+CLASS com/pkg0/pkg0/class_8 com/mojang/nbt/ListTag
+	FIELD field_7 subtags Ljava/util/List;
+	FIELD field_8 size B

@@ -1,0 +1,2 @@
+CLASS com/pkg0/pkg0/class_13 com/mojang/nbt/StringTag
+	FIELD field_13 value Ljava/lang/String;

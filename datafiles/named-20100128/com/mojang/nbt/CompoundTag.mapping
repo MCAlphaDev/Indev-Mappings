@@ -1,0 +1,21 @@
+CLASS com/pkg0/pkg0/class_5 com/mojang/nbt/CompoundTag
+	FIELD field_4 subtags Ljava/util/Map;
+	METHOD method_10 putByte (Ljava/lang/String;B)V
+	METHOD method_11 putFloat (Ljava/lang/String;F)V
+	METHOD method_12 putInt (Ljava/lang/String;I)V
+	METHOD method_13 putLong (Ljava/lang/String;J)V
+	METHOD method_14 putCompound (Ljava/lang/String;Lcom/pkg0/pkg0/class_5;)V
+	METHOD method_15 putTag (Ljava/lang/String;Lcom/pkg0/pkg0/class_12;)V
+	METHOD method_16 putString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_17 putShort (Ljava/lang/String;S)V
+	METHOD method_18 putBytes (Ljava/lang/String;[B)V
+	METHOD method_19 isEmpty ()Z
+	METHOD method_20 getShort (Ljava/lang/String;)S
+	METHOD method_21 getInt (Ljava/lang/String;)I
+	METHOD method_22 getLong (Ljava/lang/String;)J
+	METHOD method_23 getFloat (Ljava/lang/String;)F
+	METHOD method_24 getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_25 getBytes (Ljava/lang/String;)[B
+	METHOD method_26 getCompound (Ljava/lang/String;)Lcom/pkg0/pkg0/class_5;
+	METHOD method_27 getList (Ljava/lang/String;)Lcom/pkg0/pkg0/class_8;
+	METHOD method_9 getByte (Ljava/lang/String;)B

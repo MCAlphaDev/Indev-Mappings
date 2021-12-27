@@ -1,0 +1,4 @@
+CLASS com/pkg0/pkg0/class_3 com/mojang/nbt/LongTag
+	FIELD field_2 value J
+	METHOD <init> (J)V
+		ARG 1 value
