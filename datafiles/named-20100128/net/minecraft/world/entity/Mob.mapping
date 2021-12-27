@@ -1,0 +1,5 @@
+CLASS net/minecraft/pkg0/pkg1/class_66 net/minecraft/world/entity/Mob
+	FIELD field_307 attackTime I
+	FIELD field_311 health I
+	FIELD field_313 hurtTime I
+	FIELD field_316 deathTime I

@@ -1,0 +1,14 @@
+CLASS net/minecraft/pkg0/pkg2/class_75 net/minecraft/world/item/Item
+	FIELD field_338 count I
+	FIELD field_340 id I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 count
+	METHOD <init> (Lcom/pkg0/pkg0/class_5;)V
+		ARG 1 tag
+	METHOD method_239 decrement (I)Lnet/minecraft/pkg0/pkg2/class_75;
+		ARG 1 by
+	METHOD method_240 toTag (Lcom/pkg0/pkg0/class_5;)Lcom/pkg0/pkg0/class_5;
+		ARG 1 tag

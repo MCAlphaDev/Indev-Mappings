@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/MinecraftApplet
+	FIELD field_360 canvas Ljava/awt/Canvas;
+	FIELD field_361 minecraft Lnet/minecraft/client/class_136;
+	METHOD method_260 stop ()V

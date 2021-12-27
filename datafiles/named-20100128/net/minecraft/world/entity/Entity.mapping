@@ -1,0 +1,28 @@
+CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
+	FIELD field_260 rand Ljava/util/Random;
+	FIELD field_263 fireTicks I
+	FIELD field_266 air I
+	FIELD field_267 fallDistance F
+	FIELD field_274 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_278 x F
+	FIELD field_279 y F
+	FIELD field_280 z F
+	FIELD field_281 velocityX F
+	FIELD field_282 velocityY F
+	FIELD field_283 velocityZ F
+	FIELD field_284 yaw F
+	FIELD field_285 pitch F
+	METHOD <init> (Lnet/minecraft/pkg0/pkg0/class_55;)V
+		ARG 1 level
+	METHOD method_195 refreshPositionAndRotation (FFFFF)V
+	METHOD method_196 writeAdditionalData (Lcom/pkg0/pkg0/class_5;)V
+		ARG 1 tag
+	METHOD method_197 setLevel (Lnet/minecraft/pkg0/pkg0/class_55;)V
+	METHOD method_201 listTagOf ([F)Lcom/pkg0/pkg0/class_8;
+	METHOD method_204 readAdditionalData (Lcom/pkg0/pkg0/class_5;)V
+		ARG 1 tag
+	METHOD method_205 getType ()Ljava/lang/String;
+	METHOD method_207 fromTag (Lcom/pkg0/pkg0/class_5;)V
+		ARG 1 tag
+	METHOD method_210 toTag (Lcom/pkg0/pkg0/class_5;)V
+		ARG 1 tag

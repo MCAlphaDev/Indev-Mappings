@@ -1,0 +1,7 @@
+CLASS net/minecraft/pkg0/pkg0/pkg2/class_52 net/minecraft/world/level/fluid/Fluid
+	FIELD field_171 NONE Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
+	FIELD field_172 WATER Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
+	FIELD field_173 LAVA Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
+	FIELD field_174 FLUIDS [Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
+	METHOD <init> (I)V
+		ARG 1 id

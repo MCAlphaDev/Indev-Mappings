@@ -1,0 +1,29 @@
+CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
+	FIELD field_188 rand2 Ljava/util/Random;
+	FIELD field_196 sizeX I
+	FIELD field_197 sizeZ I
+	FIELD field_198 height I
+	FIELD field_199 tiles [B
+	FIELD field_210 rand1 Ljava/util/Random;
+	FIELD field_211 entities Lnet/minecraft/pkg0/pkg0/class_56;
+	FIELD field_218 player Lnet/minecraft/pkg0/pkg1/class_63;
+	METHOD method_130 (IIIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_133 setLevel (III[B)V
+		ARG 1 sizeX
+		ARG 2 sizeY
+		ARG 3 sizeZ
+		ARG 4 tiles
+	METHOD method_135 spawnParticle (Ljava/lang/String;FFFFFF)V
+	METHOD method_137 addEntity (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_139 playSound (Lnet/minecraft/pkg0/pkg1/class_63;Ljava/lang/String;FF)V
+	METHOD method_150 getFirstEntityOf (Ljava/lang/Class;)Lnet/minecraft/pkg0/pkg1/class_63;
+		ARG 1 clazz
+	METHOD method_152 removeEntity (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_155 getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_166 getPlayer ()Lnet/minecraft/pkg0/pkg1/class_63;

@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/class_136 net/minecraft/client/Minecraft
+	FIELD field_623 running Z
+	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 2 applet

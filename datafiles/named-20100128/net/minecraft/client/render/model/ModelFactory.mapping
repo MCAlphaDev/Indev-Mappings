@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/pkg4/pkg0/class_142 net/minecraft/client/render/model/ModelFactory
+	METHOD method_416 fromIncludedMD3 (Ljava/lang/String;)Lnet/minecraft/client/pkg4/pkg0/class_143;
+		ARG 1 location
+	METHOD method_417 fromMD3 (Ljava/nio/ByteBuffer;)Lnet/minecraft/client/pkg4/pkg0/class_143;
+		ARG 1 byteBuffer
+	METHOD method_417 loadMD3 (Ljava/nio/ByteBuffer;)Lnet/minecraft/pkg4/pkg0/class_143;
+	METHOD method_418 readBytes (Ljava/nio/ByteBuffer;I)Ljava/lang/String;
+		ARG 0 byteBuffer
+		ARG 1 n

@@ -1,0 +1,4 @@
+CLASS net/minecraft/pkg0/pkg0/class_56 net/minecraft/world/level/EntityTracker
+	FIELD field_226 entities Ljava/util/List;
+	METHOD method_179 add (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_183 remove (Lnet/minecraft/pkg0/pkg1/class_63;)V

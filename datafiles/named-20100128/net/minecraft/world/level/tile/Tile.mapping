@@ -1,0 +1,66 @@
+CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
+	FIELD field_113 id I
+	FIELD field_120 sounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_122 grassSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_123 alsoStoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_124 woodSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_125 gravelSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_126 byId [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_132 stone Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_133 grass Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_134 dirt Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_135 cobblestone Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_136 planks Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_137 sapling Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_138 bedrock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_139 water Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_140 stillWater Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_141 lava Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_142 stillLava Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_143 sand Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_144 gravel Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_145 goldOre Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_146 ironOre Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_147 coalOre Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_148 log Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_67 leaves Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_68 sponge Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_69 glass Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_70 redCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_71 orangeCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_72 yellowCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_73 chartreuseCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_74 greenCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_75 springGreenCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_76 cyanCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_77 capriCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_78 ultramarineCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_79 violetCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_80 purpleCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_81 magentaCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_82 roseCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_83 darkGreyCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_84 lightGreyCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_85 whiteCloth Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_86 dandelion Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_87 rose Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_88 brownMushroom Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_89 redMushroom Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_90 goldBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_91 ironBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_93 highStoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_97 stoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD method_54 getDropId ()I
+	METHOD method_55 resistance (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_59 getDropCount (Ljava/util/Random;)I
+		ARG 1 rand
+	METHOD method_71 hardness (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_72 randomTicks (I)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_81 canPersist (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
+		ARG 1 class_55
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta

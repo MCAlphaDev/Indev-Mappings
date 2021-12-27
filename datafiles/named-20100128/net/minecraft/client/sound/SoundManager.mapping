@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/pkg3/class_139 net/minecraft/client/sound/SoundManager
+	FIELD field_630 soundSystem Lpaulscode/sound/SoundSystem;
+	METHOD method_407 stopMusic ()V
+	METHOD method_413 cleanup ()V
