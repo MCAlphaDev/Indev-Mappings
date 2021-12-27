@@ -6,6 +6,7 @@ client/pkg6		entity
 pkg0			world
 pkg0/pkg0		level
 pkg0/pkg0/pkg0		tile
+pkg0/pkg0/pkg0/pkg0	entity // tileentity
 pkg0/pkg0/pkg2		fluid
 pkg0/pkg1		entity
 pkg0/pkg2		item

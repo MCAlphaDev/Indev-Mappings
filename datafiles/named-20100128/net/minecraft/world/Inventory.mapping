@@ -1,0 +1,6 @@
+CLASS net/minecraft/pkg0/class_57 net/minecraft/world/Inventory
+	METHOD method_185 getItem (I)Lnet/minecraft/pkg0/pkg2/class_75;
+		ARG 1 slot
+	METHOD method_186 setItem (ILnet/minecraft/pkg0/pkg2/class_75;)V
+		ARG 1 slot
+	METHOD method_187 getName ()Ljava/lang/String;

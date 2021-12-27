@@ -9,6 +9,8 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
 	FIELD field_107 infiniteLava Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_108 chest Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_109 gear Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_110 diamondOre Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_111 diamondBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_113 id I
 	FIELD field_120 sounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_122 grassSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
@@ -16,6 +18,8 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
 	FIELD field_124 woodSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_125 gravelSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_126 byId [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	FIELD field_127 ticksRandomly [Z
+	FIELD field_131 lights [I
 	FIELD field_132 stone Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_133 grass Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_134 dirt Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
@@ -60,6 +64,8 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
 	FIELD field_91 ironBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_92 doubleSlab Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_93 metalSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
+	FIELD field_95 strength F
+	FIELD field_96 resistance F
 	FIELD field_97 unusedSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_98 slab Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_99 bricks Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
@@ -70,14 +76,38 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/tile/Tile
 		ARG 2 integer2
 	METHOD method_54 getDropId ()I
 	METHOD method_55 resistance (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+		ARG 1 resistance
 	METHOD method_59 getDropCount (Ljava/util/Random;)I
 		ARG 1 rand
-	METHOD method_68 cutout (Z)V
-	METHOD method_71 hardness (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_63 randomTick (Lnet/minecraft/pkg0/pkg0/class_55;IIILjava/util/Random;)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_64 onInteract (Lnet/minecraft/pkg0/pkg0/class_55;IIILnet/minecraft/pkg0/pkg1/pkg2/class_64;)Z
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_68 ticksRandomly (Z)V
+		ARG 1 ticksRandomly
+	METHOD method_69 onPlaced (Lnet/minecraft/pkg0/pkg0/class_55;III)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD method_70 isOpaque ()Z
+	METHOD method_71 strength (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+		ARG 1 strength
 	METHOD method_72 randomTicks (I)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_75 onTileUpdate (Lnet/minecraft/pkg0/pkg0/class_55;IIII)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 neighbour
+	METHOD method_79 light (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+		ARG 1 light
 	METHOD method_81 canPersist (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
 		ARG 1 class_55
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
+	METHOD method_87 getFluid ()Lnet/minecraft/pkg0/pkg0/pkg2/class_52;
