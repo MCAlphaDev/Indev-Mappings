@@ -31,4 +31,4 @@ builders -> no prefix.
 NZ english (might consider changing it later but for now I'm a kiwi so may as well)
 
 # NOTES
-not sure about class_23#canPersist
+
