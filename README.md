@@ -16,6 +16,7 @@ The next step depends on what you want to do.
 If you want to edit mappings:
 
 - run start_enigma.bat. This starts enigma up with the mappings and intermediary jar.
+- also I recommend reading enigma_notes.txt. This contains some notes I jotted down while creating the mappings
 
 If you want to decompile minecraft:
 
