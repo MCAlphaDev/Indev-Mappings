@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/pkg3/class_138 net/minecraft/client/sound/RandomSounds
+	FIELD field_627 size I
+	FIELD field_628 rand Ljava/util/Random;
+	FIELD field_629 sounds Ljava/util/Map;
+	METHOD method_405 pickSound (Ljava/lang/String;)Lnet/minecraft/client/pkg3/class_137;
+		ARG 1 location
+	METHOD method_406 addSound (Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/client/pkg3/class_137;
+		ARG 1 location
+		ARG 2 resource
