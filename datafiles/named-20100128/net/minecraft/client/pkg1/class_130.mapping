@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/pkg1/class_130
+	METHOD method_374 isAt (II)Z

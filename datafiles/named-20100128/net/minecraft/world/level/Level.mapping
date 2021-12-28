@@ -1,10 +1,12 @@
 CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
+	FIELD field_187 light [I
 	FIELD field_188 rand2 Ljava/util/Random;
 	FIELD field_191 time I
 	FIELD field_196 sizeX I
 	FIELD field_197 sizeZ I
 	FIELD field_198 height I
 	FIELD field_199 blocks [B
+	FIELD field_200 data [B
 	FIELD field_201 name Ljava/lang/String;
 	FIELD field_202 author Ljava/lang/String;
 	FIELD field_203 createdOn J
@@ -23,6 +25,10 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 	FIELD field_217 cloudColour I
 	FIELD field_218 player Lnet/minecraft/pkg0/pkg1/class_63;
 	FIELD field_220 skyBrightness F
+	METHOD method_122 refresh ()V
+	METHOD method_126 (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD method_129 setBlock (IIII)Z
 	METHOD method_130 (IIIII)I
 		ARG 1 x
@@ -36,7 +42,7 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 sizeX
 		ARG 2 height
 		ARG 3 sizeZ
-		ARG 4 tiles
+		ARG 4 blocks
 	METHOD method_134 getCountOf (Ljava/lang/Class;)I
 		ARG 1 entityType
 	METHOD method_135 spawnParticle (Ljava/lang/String;FFFFFF)V
@@ -52,6 +58,7 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tile
+	METHOD method_149 propagateLight (IIIIII)V
 	METHOD method_150 getFirstEntityOf (Ljava/lang/Class;)Lnet/minecraft/pkg0/pkg1/class_63;
 		ARG 1 clazz
 	METHOD method_152 removeEntity (Lnet/minecraft/pkg0/pkg1/class_63;)V
@@ -70,6 +77,11 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_166 getPlayer ()Lnet/minecraft/pkg0/pkg1/class_63;
+	METHOD method_170 propagateLight (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 sizeX
+		ARG 4 sizeZ
 	METHOD method_171 isWater (III)Z
 		ARG 1 x
 		ARG 2 y

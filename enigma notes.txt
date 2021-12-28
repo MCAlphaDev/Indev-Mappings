@@ -6,7 +6,7 @@ net/minecraft:
 			pkg0:	entity
 		pkg1:	screen
 		pkg3:	sound
-		pkg4:	texture
+		pkg4:	md3
 			pkg0:	model
 		pkg5:	entity
 		pkg6:	player

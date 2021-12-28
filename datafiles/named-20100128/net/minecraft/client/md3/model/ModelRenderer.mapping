@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/pkg4/pkg0/class_148 net/minecraft/client/md3/model/ModelRenderer
+	FIELD field_664 model Lnet/minecraft/client/pkg4/pkg0/class_143;
+	FIELD field_666 listId I

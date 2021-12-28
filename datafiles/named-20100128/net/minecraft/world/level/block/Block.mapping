@@ -21,7 +21,7 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 	FIELD field_126 byId [Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_127 ticksRandomly [Z
 	FIELD field_130 hasFluid [Z
-	FIELD field_131 lights [I
+	FIELD field_131 luminances [I
 	FIELD field_132 stone Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_133 grass Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_134 dirt Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
@@ -111,7 +111,7 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 		ARG 3 y
 		ARG 4 z
 		ARG 5 neighbour
-	METHOD method_79 light (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_79 luminance (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 		ARG 1 light
 	METHOD method_81 shouldRenderFace (Lnet/minecraft/pkg0/pkg0/class_55;IIII)Z
 		ARG 1 class_55

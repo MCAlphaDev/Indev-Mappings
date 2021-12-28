@@ -1,4 +1,12 @@
 CLASS net/minecraft/client/pkg3/class_139 net/minecraft/client/sound/SoundManager
 	FIELD field_630 soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD field_633 lastSource I
+	FIELD field_634 options Lnet/minecraft/client/class_176;
 	METHOD method_407 stopMusic ()V
+	METHOD method_408 playSound (Ljava/lang/String;FF)V
+		ARG 1 sound
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD method_411 updateListener (Lnet/minecraft/pkg0/pkg1/class_66;F)V
+	METHOD method_412 loadOptions (Lnet/minecraft/client/class_176;)V
 	METHOD method_413 cleanup ()V
