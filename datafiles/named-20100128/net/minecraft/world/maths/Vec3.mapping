@@ -1,0 +1,16 @@
+CLASS net/minecraft/pkg0/pkg3/class_79 net/minecraft/world/maths/Vec3
+	FIELD field_343 x F
+	FIELD field_344 y F
+	FIELD field_345 z F
+	METHOD <init> (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_242 distTo (Lnet/minecraft/pkg0/pkg3/class_79;)F
+	METHOD method_243 vectorToX (Lnet/minecraft/pkg0/pkg3/class_79;F)Lnet/minecraft/pkg0/pkg3/class_79;
+		ARG 2 scale
+	METHOD method_244 sqrDistTo (Lnet/minecraft/pkg0/pkg3/class_79;)F
+	METHOD method_245 vectorToY (Lnet/minecraft/pkg0/pkg3/class_79;F)Lnet/minecraft/pkg0/pkg3/class_79;
+		ARG 2 scale
+	METHOD method_246 vectorToZ (Lnet/minecraft/pkg0/pkg3/class_79;F)Lnet/minecraft/pkg0/pkg3/class_79;
+		ARG 2 scale

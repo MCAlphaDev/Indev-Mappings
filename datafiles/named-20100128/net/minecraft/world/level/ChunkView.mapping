@@ -1,3 +1,9 @@
 CLASS net/minecraft/pkg0/pkg0/class_51 net/minecraft/world/level/ChunkView
 	METHOD method_115 spawnParticle (Ljava/lang/String;FFFFFF)V
 		ARG 1 type
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dx
+		ARG 6 dy
+		ARG 7 dz

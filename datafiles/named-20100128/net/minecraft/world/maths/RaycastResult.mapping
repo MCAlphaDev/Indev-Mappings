@@ -1,0 +1,4 @@
+CLASS net/minecraft/pkg0/pkg3/class_81 net/minecraft/world/maths/RaycastResult
+	FIELD field_353 type I
+	FIELD field_358 location Lnet/minecraft/pkg0/pkg3/class_79;
+	FIELD field_359 entity Lnet/minecraft/pkg0/pkg1/class_63;

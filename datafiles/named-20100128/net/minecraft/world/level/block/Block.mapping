@@ -13,6 +13,12 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 	FIELD field_111 diamondBlock Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 	FIELD field_112 tex I
 	FIELD field_113 id I
+	FIELD field_114 minBBX F
+	FIELD field_115 minBBY F
+	FIELD field_116 minBBZ F
+	FIELD field_117 maxBBX F
+	FIELD field_118 maxBBY F
+	FIELD field_119 maxBBZ F
 	FIELD field_120 sounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_122 grassSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
 	FIELD field_123 stoneSounds Lnet/minecraft/pkg0/pkg0/pkg0/class_28;
@@ -80,8 +86,18 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 	METHOD method_55 resistance (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 		ARG 1 resistance
 	METHOD method_56 setBoundingBox (FFFFFF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
 	METHOD method_57 getTexture (I)I
 		ARG 1 face
+	METHOD method_58 createBoundingBox (III)Lnet/minecraft/pkg0/pkg3/class_80;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_59 getDropCount (Ljava/util/Random;)I
 		ARG 1 rand
 	METHOD method_63 randomTick (Lnet/minecraft/pkg0/pkg0/class_55;IIILjava/util/Random;)V
@@ -102,6 +118,10 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 	METHOD method_71 strength (F)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
 		ARG 1 strength
 	METHOD method_72 randomTicks (I)Lnet/minecraft/pkg0/pkg0/pkg0/class_35;
+	METHOD method_73 createDefaultBoundingBox (III)Lnet/minecraft/pkg0/pkg3/class_80;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD method_74 onRemoved (Lnet/minecraft/pkg0/pkg0/class_55;III)V
 		ARG 2 x
 		ARG 3 y

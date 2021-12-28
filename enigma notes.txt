@@ -8,7 +8,7 @@ net/minecraft:
 		pkg3:	sound
 		pkg4:	md3
 			pkg0:	model
-		pkg5:	entity
+		pkg5:	particle
 		pkg6:	player
 	pkg0:	world
 		pkg0:	level
@@ -22,6 +22,7 @@ net/minecraft:
 			pkg1:	projectile
 			pkg2:	player
 		pkg2:	item
+		pkg3:	maths
 
 # CONVENTIONS
 follow notch's packaging
