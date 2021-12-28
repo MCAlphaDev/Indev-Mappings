@@ -1,0 +1,19 @@
+CLASS net/minecraft/client/pkg1/class_119 net/minecraft/client/gui/Screen
+	FIELD field_518 minecraft Lnet/minecraft/client/class_136;
+	FIELD field_519 xSize I
+	FIELD field_520 ySize I
+	FIELD field_521 buttons Ljava/util/List;
+	METHOD method_345 onInit ()V
+	METHOD method_346 onPressed (CI)V
+		ARG 2 action
+	METHOD method_347 render (II)V
+	METHOD method_348 onClick (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 action
+	METHOD method_350 init (Lnet/minecraft/client/class_136;II)V
+		ARG 2 xSize
+		ARG 3 ySize
+	METHOD method_351 handleMouse ()V
+	METHOD method_352 tryLoadLevel ()V
+	METHOD method_353 handleKeyboard ()V

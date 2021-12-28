@@ -1,0 +1,12 @@
+CLASS net/minecraft/client/pkg1/class_115 net/minecraft/client/gui/LoadLevelScreen
+	FIELD field_504 title Ljava/lang/String;
+	FIELD field_505 parent Lnet/minecraft/client/pkg1/class_119;
+	FIELD field_506 done Z
+	FIELD field_507 loaded Z
+	FIELD field_508 levels [Ljava/lang/String;
+	FIELD field_509 info Ljava/lang/String;
+	FIELD field_511 levelFile Ljava/io/File;
+	METHOD <init> (Lnet/minecraft/client/pkg1/class_119;)V
+		ARG 1 parent
+	METHOD method_338 close (I)V
+	METHOD method_339 loadLevel (Ljava/io/File;)V

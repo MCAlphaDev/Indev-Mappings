@@ -4,7 +4,7 @@ net/minecraft:
 	client:
 		pkg0:	render
 			pkg0:	entity
-		pkg1:	screen
+		pkg1:	gui
 		pkg3:	sound
 		pkg4:	md3
 			pkg0:	model

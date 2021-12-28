@@ -1,3 +1,3 @@
-CLASS net/minecraft/client/pkg1/class_131 net/minecraft/client/screen/PlayerInventoryScreen
+CLASS net/minecraft/client/pkg1/class_131 net/minecraft/client/gui/InventoryScreen
 	FIELD field_570 blockRenderer Lnet/minecraft/client/pkg0/class_100;
 	METHOD method_377 render ()V

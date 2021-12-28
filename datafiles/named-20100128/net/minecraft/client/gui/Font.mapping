@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/pkg1/class_121 net/minecraft/client/gui/Font
+	FIELD field_531 options Lnet/minecraft/client/class_176;
+	METHOD <init> (Lnet/minecraft/client/class_176;Ljava/lang/String;Lnet/minecraft/client/pkg0/class_104;)V
+		ARG 3 resources
+	METHOD method_362 drawString (Ljava/lang/String;III)V

@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/pkg1/class_112 net/minecraft/client/gui/ErrorScreen
+	FIELD field_500 title Ljava/lang/String;
+	FIELD field_501 error Ljava/lang/String;
