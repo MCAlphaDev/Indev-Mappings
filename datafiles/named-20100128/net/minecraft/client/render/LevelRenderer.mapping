@@ -1,5 +1,0 @@
-CLASS net/minecraft/client/pkg0/class_103 net/minecraft/client/render/LevelRenderer
-	FIELD field_468 chunkUpdates I
-	FIELD field_471 level Lnet/minecraft/pkg0/pkg0/class_55;
-	FIELD field_473 tesselator Lnet/minecraft/client/pkg0/class_98;
-	FIELD field_481 blockRenderr Lnet/minecraft/client/pkg0/class_100;

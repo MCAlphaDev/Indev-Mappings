@@ -1,1 +1,3 @@
 CLASS net/minecraft/client/pkg0/pkg0/class_87 net/minecraft/client/render/entity/DroppedItemRenderer
+	FIELD field_369 blockRenderer Lnet/minecraft/client/pkg0/class_100;
+	FIELD field_370 rand Ljava/util/Random;

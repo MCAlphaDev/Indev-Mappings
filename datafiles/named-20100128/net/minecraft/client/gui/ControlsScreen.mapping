@@ -1,2 +1,6 @@
 CLASS net/minecraft/client/pkg1/class_125 net/minecraft/client/gui/ControlsScreen
+	FIELD field_540 parent Lnet/minecraft/client/pkg1/class_119;
 	FIELD field_541 title Ljava/lang/String;
+	FIELD field_542 options Lnet/minecraft/client/class_176;
+	METHOD <init> (Lnet/minecraft/client/pkg1/class_119;Lnet/minecraft/client/class_176;)V
+		ARG 1 parent

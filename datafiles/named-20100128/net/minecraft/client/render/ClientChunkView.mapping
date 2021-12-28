@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/pkg0/class_91 net/minecraft/client/render/ClientChunkView
+	FIELD field_378 entityModel Lnet/minecraft/client/pkg0/pkg0/class_89;
+	FIELD field_380 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_381 resources Lnet/minecraft/client/pkg0/class_104;
+	FIELD field_385 chunkSections1 [Lnet/minecraft/client/pkg0/class_103;
+	FIELD field_386 chunkSections0 [Lnet/minecraft/client/pkg0/class_103;
+	FIELD field_391 minecraft Lnet/minecraft/client/class_136;
+	METHOD method_279 renderWater ()V

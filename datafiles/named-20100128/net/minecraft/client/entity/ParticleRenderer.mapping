@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/pkg5/class_157 net/minecraft/client/entity/ParticleRenderer
+	FIELD field_678 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_680 resources Lnet/minecraft/client/pkg0/class_104;
+	FIELD field_681 rand Ljava/util/Random;
+	METHOD method_430 spawnParticle (Lnet/minecraft/client/pkg5/class_162;)V

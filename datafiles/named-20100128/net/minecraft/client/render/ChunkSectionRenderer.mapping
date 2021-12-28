@@ -1,0 +1,15 @@
+CLASS net/minecraft/client/pkg0/class_103 net/minecraft/client/render/ChunkSectionRenderer
+	FIELD field_468 chunkUpdates I
+	FIELD field_471 level Lnet/minecraft/pkg0/pkg0/class_55;
+	FIELD field_473 tesselator Lnet/minecraft/client/pkg0/class_98;
+	FIELD field_474 startX I
+	FIELD field_475 startY I
+	FIELD field_476 startZ I
+	FIELD field_477 sizeX I
+	FIELD field_478 sizeY I
+	FIELD field_479 sizeZ I
+	FIELD field_481 blockRenderr Lnet/minecraft/client/pkg0/class_100;
+	METHOD <init> (Lnet/minecraft/pkg0/pkg0/class_55;IIIII)V
+		ARG 2 startX
+		ARG 3 startY
+		ARG 4 startZ
