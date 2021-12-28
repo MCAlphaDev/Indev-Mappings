@@ -108,6 +108,10 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD method_65 raycast (Lnet/minecraft/pkg0/pkg0/class_55;IIILnet/minecraft/pkg0/pkg3/class_79;Lnet/minecraft/pkg0/pkg3/class_79;)Lnet/minecraft/pkg0/pkg3/class_81;
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD method_68 ticksRandomly (Z)V
 		ARG 1 ticksRandomly
 	METHOD method_69 onPlaced (Lnet/minecraft/pkg0/pkg0/class_55;III)V

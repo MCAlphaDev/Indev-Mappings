@@ -1,7 +1,7 @@
 CLASS net/minecraft/client/pkg1/class_119 net/minecraft/client/gui/Screen
 	FIELD field_518 minecraft Lnet/minecraft/client/class_136;
-	FIELD field_519 xSize I
-	FIELD field_520 ySize I
+	FIELD field_519 width I
+	FIELD field_520 height I
 	FIELD field_521 buttons Ljava/util/List;
 	FIELD field_523 font Lnet/minecraft/client/pkg1/class_121;
 	METHOD method_345 onInit ()V

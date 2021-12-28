@@ -16,6 +16,7 @@ CLASS net/minecraft/pkg0/pkg3/class_80 net/minecraft/world/maths/BoundingBox
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_250 raycast (Lnet/minecraft/pkg0/pkg3/class_79;Lnet/minecraft/pkg0/pkg3/class_79;)Lnet/minecraft/pkg0/pkg3/class_81;
 	METHOD method_253 expand (FFF)Lnet/minecraft/pkg0/pkg3/class_80;
 		ARG 1 dx
 		ARG 2 dy

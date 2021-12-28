@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/pkg1/class_120 net/minecraft/client/gui/Slot
+	FIELD field_524 index I
+	FIELD field_527 inventory Lnet/minecraft/pkg0/class_57;
+	METHOD <init> (Lnet/minecraft/client/pkg1/class_131;Lnet/minecraft/pkg0/class_57;III)V
+		ARG 3 index
+	METHOD method_357 setItem (Lnet/minecraft/pkg0/pkg2/class_75;)V
+	METHOD method_360 getItem ()Lnet/minecraft/pkg0/pkg2/class_75;

@@ -27,8 +27,10 @@ net/minecraft:
 # CONVENTIONS
 follow notch's packaging
 fromTag/toTag
+suffix naming (I bet I used a ton of prefix naming I'll need to change it maybe - but not urgent so not actively searching for it)
 Entities and Block Entities have no suffix. Also items because there's so few of them and they don't really conflict
 builders -> no prefix.
+usually setItem/getItem with ItemStack
 NZ english (might consider changing it later but for now I'm a kiwi so may as well)
 
 # NOTES

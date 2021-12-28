@@ -8,9 +8,11 @@ CLASS net/minecraft/client/class_136 net/minecraft/client/Minecraft
 	FIELD field_603 chunkView Lnet/minecraft/client/pkg0/class_91;
 	FIELD field_604 player Lnet/minecraft/client/pkg6/class_164;
 	FIELD field_605 particleRenderer Lnet/minecraft/client/pkg5/class_157;
+	FIELD field_608 canvas Ljava/awt/Canvas;
 	FIELD field_611 resourceLoader Lnet/minecraft/client/pkg0/class_104;
 	FIELD field_612 font Lnet/minecraft/client/pkg1/class_121;
 	FIELD field_614 profiler Lnet/minecraft/client/class_82;
+	FIELD field_618 hud Lnet/minecraft/client/pkg1/class_124;
 	FIELD field_620 raycast Lnet/minecraft/pkg0/pkg3/class_81;
 	FIELD field_621 options Lnet/minecraft/client/class_176;
 	FIELD field_622 soundManager Lnet/minecraft/client/pkg3/class_139;

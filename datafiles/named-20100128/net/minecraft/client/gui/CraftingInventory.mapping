@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/pkg1/class_113 net/minecraft/client/gui/CraftingInventory
+	FIELD field_502 items [Lnet/minecraft/pkg0/pkg2/class_75;

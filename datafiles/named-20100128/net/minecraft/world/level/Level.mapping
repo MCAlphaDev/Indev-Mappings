@@ -53,6 +53,7 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 2 sound
 		ARG 3 volume
 		ARG 4 pitch
+	METHOD method_141 raycast (Lnet/minecraft/pkg0/pkg3/class_79;Lnet/minecraft/pkg0/pkg3/class_79;)Lnet/minecraft/pkg0/pkg3/class_81;
 	METHOD method_147 setBlockWithUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
