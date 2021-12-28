@@ -1,3 +1,4 @@
-CLASS net/minecraft/client/pkg1/class_124
+CLASS net/minecraft/client/pkg1/class_124 net/minecraft/client/gui/HUD
+	FIELD field_536 rand Ljava/util/Random;
 	FIELD field_537 minecraft Lnet/minecraft/client/class_136;
 	FIELD field_539 blockRenderer Lnet/minecraft/client/pkg0/class_100;

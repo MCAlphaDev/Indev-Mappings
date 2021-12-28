@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/pkg1/class_117 net/minecraft/client/gui/OptionsScreen
+	FIELD field_513 parent Lnet/minecraft/client/pkg1/class_119;
+	FIELD field_514 title Ljava/lang/String;
+	FIELD field_515 options Lnet/minecraft/client/class_176;

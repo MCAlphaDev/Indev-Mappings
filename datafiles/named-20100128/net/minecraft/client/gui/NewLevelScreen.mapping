@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/pkg1/class_126 net/minecraft/client/gui/NewLevelScreen
+	FIELD field_544 parent Lnet/minecraft/client/pkg1/class_119;
+	FIELD field_545 types [Ljava/lang/String;
+	FIELD field_546 shapes [Ljava/lang/String;
+	FIELD field_547 sizes [Ljava/lang/String;
+	FIELD field_548 themes [Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/pkg1/class_119;)V
+		ARG 1 parent

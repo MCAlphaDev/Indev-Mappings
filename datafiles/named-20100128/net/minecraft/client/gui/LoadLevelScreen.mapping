@@ -10,3 +10,4 @@ CLASS net/minecraft/client/pkg1/class_115 net/minecraft/client/gui/LoadLevelScre
 		ARG 1 parent
 	METHOD method_338 close (I)V
 	METHOD method_339 loadLevel (Ljava/io/File;)V
+	METHOD method_342 setLevels ([Ljava/lang/String;)V

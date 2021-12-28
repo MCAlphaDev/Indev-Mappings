@@ -3,6 +3,7 @@ CLASS net/minecraft/client/pkg1/class_119 net/minecraft/client/gui/Screen
 	FIELD field_519 xSize I
 	FIELD field_520 ySize I
 	FIELD field_521 buttons Ljava/util/List;
+	FIELD field_523 font Lnet/minecraft/client/pkg1/class_121;
 	METHOD method_345 onInit ()V
 	METHOD method_346 onPressed (CI)V
 		ARG 2 action
@@ -11,6 +12,7 @@ CLASS net/minecraft/client/pkg1/class_119 net/minecraft/client/gui/Screen
 		ARG 1 x
 		ARG 2 y
 		ARG 3 action
+	METHOD method_349 onButtonClicked (Lnet/minecraft/client/pkg1/class_130;)V
 	METHOD method_350 init (Lnet/minecraft/client/class_136;II)V
 		ARG 2 xSize
 		ARG 3 ySize

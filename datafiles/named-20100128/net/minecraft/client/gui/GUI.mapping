@@ -1,3 +1,4 @@
 CLASS net/minecraft/client/pkg1/class_123 net/minecraft/client/gui/GUI
 	METHOD method_368 renderBackground (IIIIII)V
 	METHOD method_369 drawString (Lnet/minecraft/client/pkg1/class_121;Ljava/lang/String;III)V
+	METHOD method_370 blit (IIIIII)V
