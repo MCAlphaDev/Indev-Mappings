@@ -1,4 +1,17 @@
 CLASS net/minecraft/pkg0/pkg0/class_56 net/minecraft/world/level/EntityTracker
+	FIELD field_222 xSizeChunkSections I
+	FIELD field_223 ySizeChunkSections I
+	FIELD field_224 zSizeChunkSections I
+	FIELD field_225 entitiesBySection [Ljava/util/List;
 	FIELD field_226 entities Ljava/util/List;
+	FIELD field_227 mainAccessor Lnet/minecraft/pkg0/pkg0/class_54;
+	FIELD field_228 secondaryAccessor Lnet/minecraft/pkg0/pkg0/class_54;
+	FIELD field_229 defaults Ljava/util/List;
+	METHOD <init> (III)V
+		ARG 1 xSize
+		ARG 2 height
+		ARG 3 zSize
 	METHOD method_179 add (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_181 getEntitiesWithin (Lnet/minecraft/pkg0/pkg1/class_63;FFFFFFLjava/util/List;)Ljava/util/List;
+	METHOD method_182 getEntitiesWithin (Lnet/minecraft/pkg0/pkg1/class_63;Lnet/minecraft/pkg0/pkg3/class_80;)Ljava/util/List;
 	METHOD method_183 remove (Lnet/minecraft/pkg0/pkg1/class_63;)V

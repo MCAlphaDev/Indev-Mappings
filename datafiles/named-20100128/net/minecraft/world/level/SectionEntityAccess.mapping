@@ -1,0 +1,11 @@
+CLASS net/minecraft/pkg0/pkg0/class_54 net/minecraft/world/level/SectionEntityAccess
+	COMMENT A class which can be positioned in a section and modify entities within that section
+	FIELD field_180 chunkSectionX I
+	FIELD field_181 chunkSectionY I
+	FIELD field_182 chunkSectionZ I
+	METHOD method_116 position (FFF)Lnet/minecraft/pkg0/pkg0/class_54;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD method_118 add (Lnet/minecraft/pkg0/pkg1/class_63;)V
+	METHOD method_120 remove (Lnet/minecraft/pkg0/pkg1/class_63;)V

@@ -2,8 +2,8 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 	FIELD field_187 light [I
 	FIELD field_188 rand2 Ljava/util/Random;
 	FIELD field_191 time I
-	FIELD field_196 sizeX I
-	FIELD field_197 sizeZ I
+	FIELD field_196 xSize I
+	FIELD field_197 zSize I
 	FIELD field_198 height I
 	FIELD field_199 blocks [B
 	FIELD field_200 data [B
@@ -39,9 +39,9 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD method_133 init (III[B)V
-		ARG 1 sizeX
+		ARG 1 xSize
 		ARG 2 height
-		ARG 3 sizeZ
+		ARG 3 zSize
 		ARG 4 blocks
 	METHOD method_134 getCountOf (Ljava/lang/Class;)I
 		ARG 1 entityType
@@ -77,6 +77,9 @@ CLASS net/minecraft/pkg0/pkg0/class_55 net/minecraft/world/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD method_161 getEntitiesWithin (Lnet/minecraft/pkg0/pkg3/class_80;)Z
+	METHOD method_164 (IIII)V
+		ARG 4 block
 	METHOD method_166 getPlayer ()Lnet/minecraft/pkg0/pkg1/class_63;
 	METHOD method_170 propagateLight (IIII)V
 		ARG 1 x

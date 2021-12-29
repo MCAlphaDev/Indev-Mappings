@@ -1,0 +1,5 @@
+CLASS net/minecraft/pkg0/pkg0/class_45 net/minecraft/world/level/SpawnHelper
+	FIELD field_152 level Lnet/minecraft/pkg0/pkg0/class_55;
+	METHOD method_100 trySpawnMobs ()V
+	METHOD method_101 spawnMobs (ILnet/minecraft/pkg0/pkg1/class_63;Lpkg0/class_2;)I
+		ARG 1 tries

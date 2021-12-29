@@ -1,4 +1,7 @@
 CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
+	FIELD field_255 trackedX F
+	FIELD field_256 trackedY F
+	FIELD field_257 trackedZ F
 	FIELD field_260 rand Ljava/util/Random;
 	FIELD field_263 fireTicks I
 	FIELD field_266 air I
@@ -15,6 +18,7 @@ CLASS net/minecraft/pkg0/pkg1/class_63 net/minecraft/world/entity/Entity
 	FIELD field_283 velocityZ F
 	FIELD field_284 yaw F
 	FIELD field_285 pitch F
+	FIELD field_288 boundingBox Lnet/minecraft/pkg0/pkg3/class_80;
 	FIELD field_289 falling Z
 	FIELD field_291 shouldBeRemoved Z
 	METHOD <init> (Lnet/minecraft/pkg0/pkg0/class_55;)V

@@ -130,7 +130,7 @@ CLASS net/minecraft/pkg0/pkg0/pkg0/class_35 net/minecraft/world/level/block/Bloc
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD method_75 onTileUpdate (Lnet/minecraft/pkg0/pkg0/class_55;IIII)V
+	METHOD method_75 onBlockUpdate (Lnet/minecraft/pkg0/pkg0/class_55;IIII)V
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
